@@ -4,7 +4,14 @@
         "titleText": "Leonid Iomdin",
         "aboutTitle": "About",
         "aboutExplanation": "Leonid Iomdin (1947–2024) was a famous computational linguist.",
-        "listOfPublications": "List of publications"
+        "listOfPublications": "List of publications",
+        "publicationsTitleText": "Publications by Leonid Iomdin",
+        "publicationsTableId": "№",
+        
+        "publicationsTableAuthors": "Authors",
+        "publicationsTableTitle": "Title",
+        "publicationsTableJournal": "Journal"
+        
     },
 
     "ru": {
@@ -12,6 +19,12 @@
         "titleText": "Леонид Иомдин",
         "aboutTitle": "",
         "aboutExplanation": "Леонид Иомдин (1947–2024) был известным компьютерным лингвистом.",
-        "listOfPublications": "Список публикаций"
+        "listOfPublications": "Список публикаций",
+        "publicationsTitleText": "Публикации Леонида Иомдина",
+        "publicationsTableId": "№",
+        
+        "publicationsTableAuthors": "Авторы",
+        "publicationsTableTitle": "Название",
+        "publicationsTableJournal": "Журнал"
     }
 }

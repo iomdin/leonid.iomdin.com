@@ -339,3 +339,11 @@ th {
   font-size: 24px !important;
   margin: 10px !important;
 }
+
+tr:nth-child(even) {background-color: #f6f8fa;}
+
+table, td, th {
+  border: 1px solid #dfe2e5;
+  border-collapse: collapse;
+  padding: 8px;
+}
