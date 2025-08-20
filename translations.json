@@ -1,0 +1,17 @@
+{
+    "en": {
+        "titleBrowser": "Leonid Iomdin",
+        "titleText": "Leonid Iomdin",
+        "aboutTitle": "About",
+        "aboutExplanation": "Leonid Iomdin (1947–2024) was a famous computational linguist.",
+        "listOfPublications": "List of publications"
+    },
+
+    "ru": {
+        "titleBrowser": "Леонид Иомдин",
+        "titleText": "Леонид Иомдин",
+        "aboutTitle": "",
+        "aboutExplanation": "Леонид Иомдин (1947–2024) был известным компьютерным лингвистом.",
+        "listOfPublications": "Список публикаций"
+    }
+}

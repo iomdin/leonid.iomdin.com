@@ -1,0 +1,86 @@
+<!--
+Project name: leonid.iomdin.com
+Started on: 20.08.2025
+by @mishaiomdin
+
+
+index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title id="titleBrowser">Leonid Iomdin</title>
+
+    <!-- LIBRARIES -->
+
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/LI.png">
+
+    <!-- Family tree -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+	<script src="https://cdn.rawgit.com/ErikGartner/dTree/master/dist/dTree.min.js"></script>
+</head>
+<body>
+
+    <header class="website_header">
+        <!-- Path to website -->
+        <p class="icon-text">
+        
+            <!-- leonid.iomdin.com -->
+            <span class="material-symbols-outlined">home</span>
+            <a href="https://leonid.iomdin.com/" id="leonid.iomdin.com">leonid.iomdin.com</a>
+    
+        </p>
+    
+        <!-- Language selector -->
+        <span class="icon-text" id="languageSelectorWrapper">
+            <span class="material-symbols-outlined">language</span>
+            <select id="languageSelector" onchange="changeLanguage();">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
+        </span>
+    </header>
+
+    <header class="page_header">
+        <h1 class="icon-text">
+            <span class="logo" style="height: 70px;">
+                <!-- Logo: animated emoji -->
+                <img class="logo" src="/images/LI.png" alt="">
+            </span>
+            <span id="titleText">Leonid Iomdin</span>
+        </h1>
+    </header>
+
+    <main>
+        <!-- About-->
+        <div id="about">
+            <p id="aboutExplanation">
+                Leonid Iomdin (1947–2024) was a famous computational linguist.
+            </p>
+            <div class="icon-text">
+                <button id="listOfPublications" onclick="window.location.href='publications'">List of publications</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Main script -->
+    <script src="scripts/script.js"></script>
+    <script src="scripts/family.js"></script>
+</body>
+</html>
