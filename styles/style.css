@@ -347,3 +347,9 @@ table, td, th {
   border-collapse: collapse;
   padding: 8px;
 }
+
+table {
+    display: block;
+    overflow-x: auto;
+    border: 0px;
+}
