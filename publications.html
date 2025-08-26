@@ -15,11 +15,11 @@ publications.html
     <meta property="og:title" content="Leonid Iomdin: Publications">
     <meta property="og:description" content="A list of publications by Leonid Iomdin, a computational linguist.">
     <meta property="og:url" content="https://leonid.iomdin.com/publications/">
-    <meta property="og:image" content="https://leonid.iomdin.com/images/LI.png">
+    <meta property="og:image" content="https://leonid.iomdin.com/images/icons/LIO.png">
     <meta property="og:type" content="website">
-    <meta name="twitter:image" content="https://leonid.iomdin.com/images/LI.png">
+    <meta name="twitter:image" content="https://leonid.iomdin.com/images/icons/LIO.png">
 
-    <title id="titleBrowser">Leonid Iomdin</title>
+    <title id="titleBrowser">Leonid Iomdin's publications</title>
 
     <!-- LIBRARIES -->
 
@@ -29,17 +29,22 @@ publications.html
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
         onload="renderMathInElement(document.body);"></script>
 
-    <!-- STYLESHEET -->
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/code.css">
+    <link rel="stylesheet" href="styles/events.css">
+    <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/input.css">
+    <link rel="stylesheet" href="styles/lists.css">
+    <link rel="stylesheet" href="styles/table.css">
+    <link rel="stylesheet" href="styles/text.css">
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/LI.png">
-
-    <!-- Family tree -->
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
-	<script src="https://cdn.rawgit.com/ErikGartner/dTree/master/dist/dTree.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icons/LIO.png">
 </head>
 <body>
 
@@ -48,14 +53,14 @@ publications.html
         <p class="icon-text">
         
             <!-- leonid.iomdin.com -->
-            <span class="material-symbols-outlined">home</span>
-            <a href="../" id="leonid.iomdin.com">leonid.iomdin.com</a>
+            <a href="../"><img src="images/icons/home.svg" class="icon"></a>
+            <a href="../" id="leonid.iomdin.com">leonid.iomdin.com</a> / publications
     
         </p>
     
         <!-- Language selector -->
         <span class="icon-text" id="languageSelectorWrapper">
-            <span class="material-symbols-outlined">language</span>
+            <img src="images/icons/language.svg" class="icon">
             <select id="languageSelector" onchange="changeLanguage();">
                 <option value="en">English</option>
                 <option value="ru">Русский</option>
@@ -63,12 +68,10 @@ publications.html
         </span>
     </header>
 
+    <!-- Page header -->
     <header class="page_header">
         <h1 class="icon-text">
-            <span class="logo" style="height: 70px;">
-                <!-- Logo: animated emoji -->
-                <img class="logo" src="/images/LI.png" alt="">
-            </span>
+            <img src="/images/icons/LIO.png" class="big-icon">
             <span id="publicationsTitleText">Publications by Leonid Iomdin</span>
         </h1>
     </header>
@@ -80,7 +83,7 @@ publications.html
             <thead>
             <tr>
             <th id="publicationsTableId">ID</th>
-            <th id="publicationsTableLink"><span class="material-symbols-outlined">link</span></th>
+            <th id="publicationsTableLink"><img src="images/icons/link.svg" class="icon"></th>
             <th id="publicationsTableAuthors">Authors</th>
             <th id="publicationsTableTitle">Title</th>
             <th id="publicationsTableJournal">Journal</th>
@@ -1347,6 +1350,5 @@ publications.html
 
     <!-- Main script -->
     <script src="scripts/script.js"></script>
-    <script src="scripts/family.js"></script>
 </body>
 </html>
