@@ -4,4 +4,13 @@
 .youtube {
     width: 100%;
     aspect-ratio: 16 / 9;
+    border: none;
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 1rem;
+  justify-items: center;
+  width: 100%;
 }
