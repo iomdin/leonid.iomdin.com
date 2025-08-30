@@ -1,0 +1,7 @@
+/* video.css */
+/* Video, iframe (embedded YouTube videos) */ 
+
+.youtube {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
