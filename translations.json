@@ -4,13 +4,18 @@
         "titleText": "Leonid Iomdin",
         "aboutTitle": "About",
         "aboutExplanation": "Leonid Iomdin (1947–2024) was a famous linguist.",
-        "listOfPublications": "List of publications",
-        "publicationsTitleText": "Publications by Leonid Iomdin",
+
+        "publicationsButton": "List of publications",
+        "publicationsPageTitle": "Publications by Leonid Iomdin",
+        "publicationsTitle": "Publications",
+
         "publicationsTableId": "№",
-        
         "publicationsTableAuthors": "Authors",
         "publicationsTableTitle": "Title",
         "publicationsTableJournal": "Journal",
+
+        "postnaukaButton": "Postnauka",
+        "iitpButton": "IITP",
 
         "interviewTitle": "Interview",
         "interviewExplanation": "This is an excerpt of a big interview in Russian with Leonid Iomdin. The full recording will soon be published.",
@@ -18,12 +23,12 @@
         "lecturesPageTitle": "Lectures by Leonid Iomdin",
         "lecturesTitle": "Lectures",
         "lecturesExplanation": "These are some recorded lectures by Leonid Iomdin.",
-        "moreLectures": "More lectures",
+        "lecturesButton": "More lectures",
 
         "photosPageTitle": "Photos of Leonid Iomdin",
         "photosTitle": "Photos",
         "photosExplanation": "These are some photos of Leonid Iomdin.",
-        "morePhotos": "More photos"
+        "photosButton": "More photos"
         
     },
 
@@ -32,13 +37,18 @@
         "titleText": "Леонид Иомдин",
         "aboutTitle": "О нём",
         "aboutExplanation": "Леонид Иомдин (1947–2024) был известным лингвистом.",
-        "listOfPublications": "Список публикаций",
-        "publicationsTitleText": "Публикации Леонида Иомдина",
+
+        "publicationsButton": "Список публикаций",
+        "publicationsPageTitle": "Публикации Леонида Иомдина",
+        "publicationsTitle": "Публикации",
+
         "publicationsTableId": "№",
-        
         "publicationsTableAuthors": "Авторы",
         "publicationsTableTitle": "Название",
         "publicationsTableJournal": "Журнал",
+
+        "postnaukaButton": "ПостНаука",
+        "iitpButton": "ИППИ",
 
         "interviewTitle": "Интервью",
         "interviewExplanation": "Это отрывок из большого интервью с Леонидом Иомдиным. Полная версия скоро будет опубликована.",
@@ -46,11 +56,11 @@
         "lecturesPageTitle": "Лекции Леонида Иомдина",
         "lecturesTitle": "Лекции",
         "lecturesExplanation": "Вот некоторые записи лекций Леонида Иомдина.",
-        "moreLectures": "Ещё лекции",
+        "lecturesButton": "Ещё лекции",
 
         "photosPageTitle": "Фотографии Леонида Иомдина",
         "photosTitle": "Фотографии",
         "photosExplanation": "Вот некоторые фотографии Леонида Иомдина.",
-        "morePhotos": "Ещё фотографии"
+        "photosButton": "Ещё фотографии"
     }
 }
