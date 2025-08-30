@@ -10,7 +10,10 @@
         
         "publicationsTableAuthors": "Authors",
         "publicationsTableTitle": "Title",
-        "publicationsTableJournal": "Journal"
+        "publicationsTableJournal": "Journal",
+
+        "interviewTitle": "Interview",
+        "interviewExplanation": "This is an excerpt of a big interview in Russian with Leonid Iomdin, recorded by linguistics students. The full recording will soon be published."
         
     },
 
@@ -25,6 +28,9 @@
         
         "publicationsTableAuthors": "Авторы",
         "publicationsTableTitle": "Название",
-        "publicationsTableJournal": "Журнал"
+        "publicationsTableJournal": "Журнал",
+
+        "interviewTitle": "Интервью",
+        "interviewExplanation": "Это отрывок из большого интервью с Леонидом Иомдиным, записанного студентами. Полная версия скоро будет опубликована."
     }
 }
