@@ -18,7 +18,12 @@
         "lecturesPageTitle": "Lectures by Leonid Iomdin",
         "lecturesTitle": "Lectures",
         "lecturesExplanation": "These are some recorded lectures by Leonid Iomdin.",
-        "moreLectures": "More Lectures"
+        "moreLectures": "More lectures",
+
+        "photosPageTitle": "Photos of Leonid Iomdin",
+        "photosTitle": "Photos",
+        "photosExplanation": "These are some photos of Leonid Iomdin.",
+        "morePhotos": "More photos"
         
     },
 
@@ -41,6 +46,11 @@
         "lecturesPageTitle": "Лекции Леонида Иомдина",
         "lecturesTitle": "Лекции",
         "lecturesExplanation": "Вот некоторые записи лекций Леонида Иомдина.",
-        "moreLectures": "Ещё лекции"
+        "moreLectures": "Ещё лекции",
+
+        "photosPageTitle": "Фотографии Леонида Иомдина",
+        "photosTitle": "Фотографии",
+        "photosExplanation": "Вот некоторые фотографии Леонида Иомдина.",
+        "morePhotos": "Ещё фотографии"
     }
 }

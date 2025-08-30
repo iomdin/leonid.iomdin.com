@@ -1,0 +1,15 @@
+/* photos.css */
+/* Photos */
+
+.photo {
+    width: 100%;
+    border: none;
+}
+
+.photo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 1rem;
+    justify-items: center;
+    width: 100%;
+}

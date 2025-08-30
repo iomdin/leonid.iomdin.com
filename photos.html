@@ -1,0 +1,143 @@
+<!--
+Project name: leonid.iomdin.com
+Started on: 20.08.2025
+by @mishaiomdin
+
+
+photos.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Leonid Iomdin: Photos">
+    <meta property="og:description" content="Photos of Leonid Iomdin">
+    <meta property="og:url" content="https://leonid.iomdin.com/photos/">
+    <meta property="og:image" content="https://leonid.iomdin.com/images/icons/LIO.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:image" content="https://leonid.iomdin.com/images/icons/LIO.png">
+
+    <title id="titleBrowser">Leonid Iomdin's photos</title>
+
+    <!-- LIBRARIES -->
+
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/code.css">
+    <link rel="stylesheet" href="styles/events.css">
+    <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/input.css">
+    <link rel="stylesheet" href="styles/lists.css">
+    <link rel="stylesheet" href="styles/photos.css">
+    <link rel="stylesheet" href="styles/table.css">
+    <link rel="stylesheet" href="styles/text.css">
+    <link rel="stylesheet" href="styles/video.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/icons/LIO.png">
+</head>
+<body>
+
+    <header class="website_header">
+        <!-- Path to website -->
+        <p class="icon-text">
+        
+            <a href="../"><img src="images/icons/home.svg" class="icon"></a> / photos
+    
+        </p>
+    
+        <!-- Language selector -->
+        <span class="icon-text" id="languageSelectorWrapper">
+            <img src="images/icons/language.svg" class="icon">
+            <select id="languageSelector" onchange="changeLanguage();">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
+        </span>
+    </header>
+
+    <!-- Page header -->
+    <header class="page_header">
+        <h1 class="icon-text">
+            <img src="/images/icons/LIO.png" class="big-icon">
+            <span id="photosPageTitle">Photos of Leonid Iomdin</span>
+        </h1>
+    </header>
+
+    <main>
+        <!-- Photos-->
+        <div id="photos">
+            <h2 class="icon-text">
+                <img src="images/icons/photo.svg" class="icon">
+                <span id="photosTitle">Photos</span>
+            </h2>
+            <p id="photosExplanation">
+                These are some photos of Leonid Iomdin.
+            </p>
+            <div class="photo-container">
+                <img class="photo" src="images/photos/100_0100.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6506.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6508.jpg"></img>
+                <img class="photo" src="images/photos/22.jpg"></img>
+                <img class="photo" src="images/photos/36.jpg"></img>
+                <img class="photo" src="images/photos/1990_02_Tarussa6.jpg"></img>
+                <img class="photo" src="images/photos/1990_02_Tarussa7.jpg"></img>
+                <img class="photo" src="images/photos/Dikovsky3_Geneva.jpg"></img>
+                <img class="photo" src="images/photos/igor_i_lenja2000.jpg"></img>
+                <img class="photo" src="images/photos/IMG_0739.jpg"></img>
+                <img class="photo" src="images/photos/DSC00785.jpg"></img>
+                <img class="photo" src="images/photos/IMG_0743.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6504.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6505.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6510.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6512.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6514.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6515.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6516.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6517.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6518.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6519.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6520.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6523.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6524.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6526.jpg"></img>
+                <img class="photo" src="images/photos/IMG_6527.jpg"></img>
+                <img class="photo" src="images/photos/lieb2.jpg"></img>
+                <img class="photo" src="images/photos/Ljolja 035.jpg"></img>
+                <img class="photo" src="images/photos/photo 199.jpg"></img>
+                <img class="photo" src="images/photos/photo 211.jpg"></img>
+                <img class="photo" src="images/photos/PICT0001.jpg"></img>
+                <img class="photo" src="images/photos/PICT0036.jpg"></img>
+                <img class="photo" src="images/photos/PICT0357.jpg"></img>
+                <img class="photo" src="images/photos/PICT0360.jpg"></img>
+                <img class="photo" src="images/photos/PICT0475.jpg"></img>
+                <img class="photo" src="images/photos/PICT0488.jpg"></img>
+                <img class="photo" src="images/photos/PICT0612.jpg"></img>
+                <img class="photo" src="images/photos/PICT0712.jpg"></img>
+                <img class="photo" src="images/photos/PICT0770.jpg"></img>
+                <img class="photo" src="images/photos/PICT1097.jpg"></img>
+                <img class="photo" src="images/photos/PICT1099.jpg"></img>
+                <img class="photo" src="images/photos/Picture 011.jpg"></img>
+                <img class="photo" src="images/photos/Picture 028.jpg"></img>
+                <img class="photo" src="images/photos/vypusk matlingvistiki.jpg"></img>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="scripts/translation.js"></script>
+</body>
+</html>
