@@ -1,7 +1,7 @@
 /* buttons.css */
 /* Buttons */
 
-button {
+button, .button {
   background-color: #e4edff;
   color: black;
 
@@ -18,12 +18,8 @@ button {
 
 }
 
-button:hover {
+button:hover, .button:hover {
   background-color: #b2c9f6;
-}
-
-.chosen_button {
-  background-color: white;
 }
 
 .button-container {
@@ -34,15 +30,11 @@ button:hover {
     gap: 10px;  /* Space between buttons */
 }
 
-.button-container button {
+.button-container button,
+.button-container .button {
     display: flex;  
     align-items: center;  
     justify-content: center;  
     padding: 10px 20px;
     font-size: 16px;
-}
-
-a button {
-  text-decoration: none;
-  color: black;
 }

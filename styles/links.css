@@ -1,0 +1,12 @@
+/* links.css */
+/* Links: a */
+
+a {
+    text-decoration: underline;
+    color: #000000;
+    cursor: pointer
+}
+
+a.button {
+    text-decoration: none;
+}
