@@ -6,6 +6,12 @@
 // translation.js
 // Handles the language selection and translation of the website
 
+document.addEventListener("DOMContentLoaded", function () {
+    const savedLanguage = localStorage.getItem('language') || 'en';
+    document.getElementById("languageSelector").value = savedLanguage;
+    changeLanguage();
+});
+
 
 window.onload = function () {
     const savedLanguage = localStorage.getItem('language') || 'en';
