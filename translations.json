@@ -9,7 +9,7 @@
         "publicationsPageTitle": "Publications by Leonid Iomdin",
         "publicationsTitle": "Publications",
 
-        "publicationsTableId": "№",
+        "publicationsTableId": "ID",
         "publicationsTableAuthors": "Authors",
         "publicationsTableTitle": "Title",
         "publicationsTableJournal": "Journal",
@@ -28,7 +28,13 @@
         "photosPageTitle": "Photos of Leonid Iomdin",
         "photosTitle": "Photos",
         "photosExplanation": "These are some photos of Leonid Iomdin with his family, friends and colleagues.",
-        "photosButton": "More photos"
+        "photosButton": "More photos",
+
+        "booksTitle": "Publications",
+        "booksTableId": "ID",
+        "booksTableAuthors": "Authors",
+        "booksTableTitle": "Title",
+        "booksTablePublishingHouse": "Publishing house"
         
     },
 
@@ -61,6 +67,12 @@
         "photosPageTitle": "Фотографии Леонида Иомдина",
         "photosTitle": "Фотографии",
         "photosExplanation": "Вот некоторые фотографии Леонида Иомдина с родственниками, друзьями и коллегами.",
-        "photosButton": "Ещё фотографии"
+        "photosButton": "Ещё фотографии",
+
+        "booksTitle": "Книги",
+        "booksTableId": "№",
+        "booksTableAuthors": "Авторы",
+        "booksTableTitle": "Название",
+        "booksTablePublishingHouse": "Издательство"
     }
 }
