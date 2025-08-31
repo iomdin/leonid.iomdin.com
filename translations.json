@@ -19,6 +19,9 @@
 
         "interviewTitle": "Interview",
         "interviewExplanation": "This is an excerpt of a big interview in Russian with Leonid Iomdin. The full recording will soon be published.",
+        "interviewButton": "Full interview transcript",
+        "interviewPageTitle": "Interview with Leonid Iomdin",
+        "interviewTranscriptExplanation": "This is the full transcript of an interview with Leonid Iomdin, recorded in Russian in 2018. The full recording will soon be published.",
 
         "lecturesPageTitle": "Lectures by Leonid Iomdin",
         "lecturesTitle": "Lectures",
@@ -58,6 +61,9 @@
 
         "interviewTitle": "Интервью",
         "interviewExplanation": "Это отрывок из большого интервью с Леонидом Иомдиным. Полная версия скоро будет опубликована.",
+        "interviewButton": "Полная расшифровка интервью",
+        "interviewPageTitle": "Интервью с Леонидом Иомдиным",
+        "interviewTranscriptExplanation": "Это полная расшифровка интервью с Леонидом Иомдиным. Видеозапись скоро будет опубликована.",
 
         "lecturesPageTitle": "Лекции Леонида Иомдина",
         "lecturesTitle": "Лекции",
