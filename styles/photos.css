@@ -13,3 +13,17 @@
     justify-items: center;
     width: 100%;
 }
+
+.photo-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 10px;
+  margin-top: 0px;
+  font-size: 0.8em;
+}
+
+.photo-description-container {
+    margin: 0px;
+    text-align: center;
+}
