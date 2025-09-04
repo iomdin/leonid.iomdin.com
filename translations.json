@@ -4,19 +4,15 @@
         "titleText": "Leonid Iomdin",
         "aboutTitle": "About",
         "aboutExplanation": "Leonid Iomdin (Sept 1, 1947 – Sept 18, 2024) was a linguist, specializing in computational linguistics, syntax, and semantics; pioneer of machine translation; author of the New Comprehensive English–Russian Dictionary; head of the Computational Linguistics Laboratory at the Institute for Information Transmission Problems; professor at Russian State University of the Humanities and Moscow Institute of Physics and Technology.",
-
         "publicationsButton": "Full list of publications",
         "publicationsPageTitle": "Publications by Leonid Iomdin",
         "publicationsTitle": "Publications",
-
         "publicationsTableId": "ID",
         "publicationsTableAuthors": "Authors",
         "publicationsTableTitle": "Title",
         "publicationsTableJournal": "Journal",
-
         "postnaukaButton": "Postnauka",
         "iitpButton": "IITP",
-
         "interviewTitle": "Interview",
         "interviewExplanation": "This is an excerpt of a big interview in Russian with Leonid Iomdin. The full recording will soon be published.",
         "interviewButton": "Full interview transcript",
@@ -25,43 +21,34 @@
         "interviewInterviewers": "Interviewers: Alena Belyaeva, Margarita Berseneva (HSE Linguistics, year 2)",
         "interviewDate": "Date: February 28, 2018",
         "interviewProject": "Project: linguistics practice under supervision by Vladimir Fayer",
-
         "lecturesPageTitle": "Lectures by Leonid Iomdin",
         "lecturesTitle": "Lectures",
         "lecturesExplanation": "These are some recorded lectures by Leonid Iomdin.",
         "lecturesButton": "More lectures",
-
         "photosPageTitle": "Photos of Leonid Iomdin",
         "photosTitle": "Photos",
         "photosExplanation": "These are some photos of Leonid Iomdin with his family, friends and colleagues.",
         "photosButton": "More photos",
-
         "booksTitle": "Books",
         "booksTableId": "ID",
         "booksTableAuthors": "Authors",
         "booksTableTitle": "Title",
         "booksTablePublishingHouse": "Publishing house"
-        
     },
-
     "ru": {
         "titleBrowser": "Леонид Иомдин",
         "titleText": "Леонид Иомдин",
         "aboutTitle": "О нём",
         "aboutExplanation": "Леонид Иомдин (1.09.1947–18.09.2024) — специалист по компьютерной лингвистике, синтаксису и семантике, пионер машинного перевода, автор Нового большого англо-русского словаря, заведующий лабораторией компьютерной лингвистики ИППИ РАН, профессор РГГУ и МФТИ.",
-
         "publicationsButton": "Полный список публикаций",
         "publicationsPageTitle": "Публикации Леонида Иомдина",
         "publicationsTitle": "Публикации",
-
         "publicationsTableId": "№",
         "publicationsTableAuthors": "Авторы",
         "publicationsTableTitle": "Название",
         "publicationsTableJournal": "Журнал",
-
         "postnaukaButton": "ПостНаука",
         "iitpButton": "ИППИ",
-
         "interviewTitle": "Интервью",
         "interviewExplanation": "Это отрывок из большого интервью с Леонидом Иомдиным. Полная версия скоро будет опубликована.",
         "interviewButton": "Полная расшифровка интервью",
@@ -70,17 +57,14 @@
         "interviewInterviewers": "Интервью взяли: Алена Беляева, Маргарита Берсенева (Лингвистика ВШЭ, 2-й курс)",
         "interviewDate": "Дата: 28 февраля 2018 года",
         "interviewProject": "В рамках практики под руководством В. В. Файера",
-
         "lecturesPageTitle": "Лекции Леонида Иомдина",
         "lecturesTitle": "Лекции",
         "lecturesExplanation": "Вот некоторые записи лекций Леонида Иомдина.",
         "lecturesButton": "Ещё лекции",
-
         "photosPageTitle": "Фотографии Леонида Иомдина",
         "photosTitle": "Фотографии",
         "photosExplanation": "Вот некоторые фотографии Леонида Иомдина с родственниками, друзьями и коллегами.",
         "photosButton": "Ещё фотографии",
-
         "booksTitle": "Книги",
         "booksTableId": "№",
         "booksTableAuthors": "Авторы",
